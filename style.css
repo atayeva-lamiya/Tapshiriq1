@@ -1,0 +1,26 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+section {
+    display: flex;
+    flex-direction: row;
+}
+section .qutu {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(52, 12, 88);
+    margin: 10px;
+    transition: ease-in-out .3s;
+}
+.button {
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    border: 0px solid;
+    border-radius: 50px;
+    background-color: rgb(74, 19, 122);
+    color: rgb(190, 147, 229);
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
